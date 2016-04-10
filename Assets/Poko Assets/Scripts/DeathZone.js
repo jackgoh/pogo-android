@@ -1,7 +1,10 @@
 static var playerIsDead = false;
 static var playerIsRunOutLife = false;
 var deathHeight : float = -10;
-
+var btnTexture : Texture;
+var style : GUIStyle = new GUIStyle();
+style.fontSize = 50;
+    
 
  function Update()
 {
@@ -23,22 +26,24 @@ function OnGUI ()
 GUI.contentColor = Color.black;
 	if (playerIsDead == true)
 	{
-	GUI.Label (new Rect (Screen.width*0.5-50, 100, 100, 40), "You Are Dead !");
+	GUI.Label( Rect ( Screen.width/2-(320/2) , (Screen.height/2)-40, 320, 80), "You're Dead!", style);
 	Time.timeScale=0;
 
-		if (GUI.RepeatButton(Rect(Screen.width*0.5-50, 240, 100, 40), "Play Again"))
+		if (GUI.RepeatButton(Rect(Screen.width/2-(640/2) ,(Screen.height/2)+40, 640, 160), "Play Again"))
 		{
 			
 			PlayAgain();
 		}
+		
+		
 	}
 	if (playerIsRunOutLife == true)
 	{
 	
-	GUI.Label (new Rect (Screen.width*0.5-75, 100, 200, 40), "You Are Run Out of Life !");
+	GUI.Label (new Rect (Screen.width/2-(320/2) , (Screen.height/2)-40, 320, 80), "You Are Run Out of Life !");
 	Time.timeScale=0;
 
-		if (GUI.RepeatButton(Rect(Screen.width*0.5-50, 240, 100, 40), "Reset"))
+		if (GUI.RepeatButton(Rect(Screen.width/2-(640/2) ,(Screen.height/2)+40, 640, 160), "Reset"))
 		{
 			
 			Reset();
@@ -50,12 +55,12 @@ GUI.contentColor = Color.black;
 	Time.timeScale=0;
 
 
-		if (GUI.RepeatButton(Rect(Screen.width*0.5-75, 240, 100, 40), "Restart"))
+		if (GUI.RepeatButton(Rect(Screen.width/2-(640/2) ,(Screen.height/2)-160, 640, 160), "Restart"))
 		{
 			
 			PlayAgain();
 		}
-		if (GUI.RepeatButton(Rect(Screen.width*0.5-100, 150, 150, 40), "Next Level"))
+		if (GUI.RepeatButton(Rect(Screen.width/2-(640/2) ,(Screen.height/2)+40, 640, 160), "Next Level"))
 		{
 			
 			Application.LoadLevel (Application.loadedLevel + 1);
@@ -66,10 +71,10 @@ GUI.contentColor = Color.black;
 	
 	if (Timer.timeout == true)
 	{
-	GUI.Label (new Rect (Screen.width*0.5-50, 100, 100, 40), "TimeOut!");
+	GUI.Label (new Rect (Screen.width/2-(320/2) , (Screen.height/2)-40, 320, 80), "TimeOut!");
 	Time.timeScale=0;
 
-		if (GUI.RepeatButton(Rect(Screen.width*0.5-50, 240, 100, 40), "Play Again"))
+		if (GUI.RepeatButton(Rect(Screen.width/2-(640/2) ,(Screen.height/2)+40, 640, 160), "Play Again"))
 		{
 			
 			PlayAgain();

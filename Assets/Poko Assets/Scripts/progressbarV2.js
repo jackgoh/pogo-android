@@ -9,10 +9,13 @@ var playerPos : Transform;
  
     function Update()
     {
+    
+ 
     // get level distance by subtracting start and end
     var totalDist : float = Vector3.Distance(startPoint.position, endPoint.position);
     //get player distance from start in X axis only so slopes/ height doesn't  affect result
-    var playerDist : float = Vector3.Distance(startPoint.position,playerPos.position);
+   // var playerDist : float = Vector3.Distance(startPoint.position,playerPos.position);
+    var playerDist : float = Mathf.Abs(startPoint.position.z - playerPos.position.z);
     //get players progress as a percentage of the whole distance
     var playerProgress : float = playerDist / totalDist * 100;
  

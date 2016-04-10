@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{9DDC38DF-CE3E-465B-D89C-F75372E365F2}") = "poko-android", "Assembly-CSharp-firstpass-vs.csproj", "{8244F1ED-80FE-6B31-F57F-6BF8A24624FE}"
 EndProject
+Project("{9DDC38DF-CE3E-465B-D89C-F75372E365F2}") = "poko-android", "Assembly-CSharp-vs.csproj", "{295B9D77-39CF-E003-1FDE-79E2DCB665D3}"
+EndProject
 Project("{9DDC38DF-CE3E-465B-D89C-F75372E365F2}") = "poko-android", "Assembly-CSharp-Editor-vs.csproj", "{39589142-BD36-826D-5F0E-330568604AE2}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{8244F1ED-80FE-6B31-F57F-6BF8A24624FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8244F1ED-80FE-6B31-F57F-6BF8A24624FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8244F1ED-80FE-6B31-F57F-6BF8A24624FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295B9D77-39CF-E003-1FDE-79E2DCB665D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295B9D77-39CF-E003-1FDE-79E2DCB665D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295B9D77-39CF-E003-1FDE-79E2DCB665D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295B9D77-39CF-E003-1FDE-79E2DCB665D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39589142-BD36-826D-5F0E-330568604AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{39589142-BD36-826D-5F0E-330568604AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39589142-BD36-826D-5F0E-330568604AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-		GlobalSection(MonoDevelopProperties) = preSolution
+						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

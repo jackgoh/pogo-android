@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Poko Assets\Scripts\DeathZone.js">
+    <Files>
+      <File FileName="Assets\Poko Assets\Scripts\DeathZone.js" Line="95" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\testhealth.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\BoncingV2.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\CleanUp.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\Player 1 Weapon.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\PauseMenu.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\PauseMenuV2.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Camera Scripts\SmoothFollow.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Cameras\CameraGuidelines.txt" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Camera Scripts\SmoothLookAt.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Camera Scripts\MouseOrbit.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\Player 1 Movement.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\tiltControl.js" Line="2" Column="75" />
+      <File FileName="Assets\Poko Assets\Scripts\progressbarV2.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\health_control.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\startgame.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\Finish.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\Timer.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\quitgame.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\ProgressBar.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\PlayerRespawn.js" Line="1" Column="1" />
+      <File FileName="Assets\Poko Assets\Scripts\platformerbar.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
